@@ -1,6 +1,14 @@
-export default {
+"use strict";
+
+require("core-js/modules/es6.object.define-property");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
   searchBar: {
-    backgroundColor: '#eee',
+    backgroundColor: '#444',
     borderRadius: 5,
     fontSize: 16,
     marginHorizontal: 5,
@@ -16,8 +24,10 @@ export default {
   },
   header: {
     paddingVertical: 5,
+    paddingHorizontal: 10,
   },
   headerText: {
+    color: '#888',
     fontSize: 20,
   },
   headerTextSelected: {
@@ -25,12 +35,14 @@ export default {
   },
   item: {
     paddingVertical: 5,
-    paddingHorizontal: 16,
+    paddingHorizontal: 20,
   },
   itemText: {
+    color: '#888',
     fontSize: 16,
   },
   itemTextSelected: {
     fontWeight: 'bold',
   },
 };
+exports.default = _default;

@@ -1,14 +1,23 @@
-export default {
+"use strict";
+
+require("core-js/modules/es6.object.define-property");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
   main: {
     flex: 1,
   },
   headerText: {
     marginLeft: 10,
     fontSize: 20,
-    color: 'black',
+    color: '#EEE',
   },
   text: {
     fontSize: 18,
+    color: '#EEE',
   },
   center: {
     alignItems: 'center',
@@ -27,7 +36,7 @@ export default {
   },
   previewMinimized: {
     borderWidth: 1,
-    borderColor: '#b3b3b3',
+    borderColor: '#222222',
   },
   tab: {
     marginRight: 15,
@@ -45,3 +54,4 @@ export default {
     flex: 1,
   },
 };
+exports.default = _default;
